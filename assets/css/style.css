@@ -97,6 +97,13 @@ li a {
 
 }
 
+.flex-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	max-width: 608px;
+}
+
 .image {
 	float: left;
 	padding: 20px;
