@@ -79,6 +79,15 @@ hr {
 	margin-right: 0;
 }
 
+form {
+	width: 650px;
+}
+
+.active {
+	background-color: #ccc;
+	color: #666;
+}
+
 .header {
 	color: #4aaaa5;
 }
@@ -88,6 +97,10 @@ hr {
 	color: #fff;
 	padding: 20px;
 	margin-left: 100px;
+}
+
+a:hover {
+	color: #4aaaa5;
 }
 
 
@@ -102,6 +115,15 @@ hr {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	padding: 30px;
+}
+
+#gallery {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#gallery-header {
+	margin-left: 20px;
 }
 
 .flex-content {
